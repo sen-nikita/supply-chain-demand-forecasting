@@ -1,6 +1,7 @@
 import sqlite3
 import pandas as pd
 import matplotlib.pyplot as plt
+import streamlit as st
 
 
 # ==========================================
@@ -280,9 +281,7 @@ plt.tight_layout(
     rect=[0, 0.07, 1, 0.94]
 )
 
-plt.show()
-
-
+st.pyplot(fig)
 # ==========================================
 # 10. TERMINAL SUMMARY
 # ==========================================
